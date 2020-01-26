@@ -1,0 +1,474 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+// font-family: 'Libre Franklin',
+// sans-serif;
+// Стилизация блока header-porto
+
+.header-porto {
+  background: rgba(198, 108, 73, 0.3) url("../img/header-bg.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-height: 768px;
+}
+
+.header-nav {
+  padding-top: 93px;
+  padding-left: 165px;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  padding-right: 464px;
+  font-family: 'Libre Franklin',
+    sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.nav-link {
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 60px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  a:hover {
+    font-weight: bold;
+    transition: ease-out 0.7s;
+  }
+}
+
+.header-title {
+  width: 694px;
+  height: 261px;
+  margin-top: 145px;
+  margin-left: 165px;
+
+  h1 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    color: #fff;
+  }
+
+  h3 {
+    padding-top: 26px;
+    padding-bottom: 106px;
+    color: #fff;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  a {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+  }
+
+  a:hover {
+    text-decoration: none;
+    transition: ease-out 0.7s;
+  }
+}
+
+// =================================================================
+
+// Стилизация блока about-section
+
+.about-section {
+  width: 100%;
+  height: 544px;
+}
+
+.about-title {
+  padding-top: 93px;
+  padding-left: 165px;
+  padding-bottom: 75px;
+
+  h3 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+  }
+}
+
+.about-text {
+  width: 1107px;
+  height: 203px;
+  margin: 0 auto;
+  margin-bottom: 115px;
+
+  p {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: #333333;
+  }
+}
+
+// ==========================================================================
+
+.skill-section {
+  width: 100%;
+  height: 693px;
+  background: #FFFAF2;
+}
+
+.skill-title {
+  padding-top: 93px;
+  padding-left: 165px;
+
+  h3 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+  }
+}
+
+.skill-wrapper {
+  margin-top: 65px;
+  margin-left: 165px;
+  display: flex;
+
+  img {
+    margin-right: 125px;
+  }
+}
+
+.skill-progress {
+  width: 635px;
+  height: 350px;
+  margin-bottom: 65px;
+
+  p {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    padding-bottom: 22px;
+  }
+
+  p span {
+    padding-left: 135px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+.skill-profail {
+  padding-top: 40px;
+  float: left;
+  position: relative;
+
+  .graf-skill-1 {
+    width: 381px;
+    height: 24px;
+    background-color: #C66C49;
+    position: absolute;
+    top: 42px;
+    left: 183px;
+
+  }
+
+  .graf-skill-2 {
+    width: 351px;
+    height: 24px;
+    background-color: #C66C49;
+    position: absolute;
+    top: 135px;
+    left: 183px;
+  }
+
+  .graf-skill-3 {
+    width: 286px;
+    height: 24px;
+    background-color: #C66C49;
+    position: absolute;
+    top: 228px;
+    left: 183px;
+  }
+}
+
+.graf-skill-1-2 {
+  width: 65px;
+  height: 24px;
+  background-color: #F5D6AB;
+  position: absolute;
+  top: 42px;
+  left: 564px;
+}
+
+.graf-skill-2-2 {
+  width: 94px;
+  height: 24px;
+  background-color: #F5D6AB;
+  position: absolute;
+  top: 135px;
+  left: 534px;
+}
+
+.graf-skill-3-2 {
+  width: 160px;
+  height: 24px;
+  background-color: #F5D6AB;
+  position: absolute;
+  top: 228px;
+  left: 469px;
+}
+
+// стилизация блока слайдера
+
+.slider-skills {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 882px;
+  display: flex;
+}
+
+.slide-text {
+  width: 349px;
+  height: 210px;
+  margin-top: 93px;
+  margin-left: 166px;
+
+  .slider-title {
+    h2 {
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      color: #333333;
+    }
+  }
+
+  .slide-name {
+    padding-top: 86px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+  }
+
+  .slide-discription {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: #333333;
+  }
+}
+
+.btn-slide {
+  display: flex;
+  margin-top: 235px;
+  width: 62px;
+  height: 24px;
+
+  .btn-left {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    margin-right: 20px;
+  }
+
+  .btn-right {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+  }
+}
+
+.slide-image {
+  width: 635px;
+  height: 403px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2vw;
+
+  margin-top: 274px;
+  margin-left: 125px;
+
+  .img_item-1 {
+    width: 350px;
+    height: 144px;
+    background-image: url('../img/sl-img-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .img_item-2 {
+    width: 333px;
+    height: 241px;
+
+    background-image: url('../img/sl-img-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .img_item-3 {
+    width: 349px;
+    height: 233px;
+
+    background-image: url('../img/sl-img-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .img_item-4 {
+    width: 255px;
+    height: 144px;
+
+    background-image: url('../img/sl-img-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+// стилизация  блок footer
+.porto-footer {
+  width: 100%;
+  height: 528px;
+  background: #FFFAF2;
+}
+
+.footer-title {
+  padding-top: 93px;
+  padding-left: 165px;
+
+  h3 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+  }
+}
+
+.footer-wrap_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profi-links {
+  margin-top: 95px;
+  margin-left: 165px;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    padding-top: 14px;
+    text-decoration: none;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    // проработать с псевдоклассами
+  }
+
+  a:hover {
+    font-weight: bold;
+    transition: ease-out 0.7s;
+  }
+}
+
+.social-links {
+  margin-top: 95px;
+  margin-left: 165px;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    padding-top: 14px;
+    text-decoration: none;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+  }
+
+  a:hover {
+    font-weight: bold;
+    transition: ease-out 0.7s;
+  }
+}
+
+.footer-address {
+  p {
+    margin-top: 14px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+  }
+}
+
+.footer-btn {
+  margin-top: 340px;
+  margin-right: 180px;
+
+  button {
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background: #FFFAF2;
+    cursor: pointer;
+  }
+}
