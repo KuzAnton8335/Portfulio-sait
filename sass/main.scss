@@ -23,8 +23,7 @@ body {
 
 .header-logo {
   padding-right: 464px;
-  font-family: 'Libre Franklin',
-    sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   color: #fff;
   font-style: normal;
   font-weight: bold;
@@ -83,7 +82,7 @@ body {
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   a:hover {
@@ -138,7 +137,7 @@ body {
 .skill-section {
   width: 100%;
   height: 693px;
-  background: #FFFAF2;
+  background: #fffaf2;
 }
 
 .skill-title {
@@ -198,7 +197,7 @@ body {
   .graf-skill-1 {
     width: 381px;
     height: 24px;
-    background-color: #C66C49;
+    background-color: #c66c49;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -211,7 +210,7 @@ body {
   .graf-skill-2 {
     width: 351px;
     height: 24px;
-    background-color: #C66C49;
+    background-color: #c66c49;
     position: absolute;
     top: 135px;
     left: 183px;
@@ -221,7 +220,7 @@ body {
   .graf-skill-3 {
     width: 286px;
     height: 24px;
-    background-color: #C66C49;
+    background-color: #c66c49;
     position: absolute;
     top: 228px;
     left: 183px;
@@ -232,11 +231,12 @@ body {
 .graf-skill-1-2 {
   width: 65px;
   height: 24px;
-  background-color: #F5D6AB;
+  background-color: #f5d6ab;
 
   position: absolute;
   top: 42px;
   left: 564px;
+  animation: load-3 3s normal forwards;
 }
 
 @keyframes load {
@@ -249,14 +249,14 @@ body {
   }
 }
 
-
 .graf-skill-2-2 {
   width: 94px;
   height: 24px;
-  background-color: #F5D6AB;
+  background-color: #f5d6ab;
   position: absolute;
   top: 135px;
   left: 534px;
+  animation: load-4 3s normal forwards;
 }
 
 @keyframes load-1 {
@@ -272,10 +272,11 @@ body {
 .graf-skill-3-2 {
   width: 160px;
   height: 24px;
-  background-color: #F5D6AB;
+  background-color: #f5d6ab;
   position: absolute;
   top: 228px;
   left: 469px;
+  animation: load-5 3s normal forwards;
 }
 
 @keyframes load-2 {
@@ -288,6 +289,35 @@ body {
   }
 }
 
+@keyframes load-3 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 14%;
+  }
+}
+
+@keyframes load-4 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 21%;
+  }
+}
+
+@keyframes load-5 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 35%;
+  }
+}
 // стилизация блока слайдера
 
 .slider-skills {
@@ -384,7 +414,7 @@ body {
   .img_item-1 {
     width: 350px;
     height: 144px;
-    background-image: url('../img/sl-img-1.png');
+    background-image: url("../img/sl-img-1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -395,7 +425,7 @@ body {
   .img_item-2 {
     width: 333px;
     height: 241px;
-    background-image: url('../img/sl-img-4.png');
+    background-image: url("../img/sl-img-4.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -405,7 +435,7 @@ body {
     width: 349px;
     height: 233px;
 
-    background-image: url('../img/sl-img-2.png');
+    background-image: url("../img/sl-img-2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -415,7 +445,7 @@ body {
     width: 255px;
     height: 144px;
 
-    background-image: url('../img/sl-img-3.png');
+    background-image: url("../img/sl-img-3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -426,7 +456,7 @@ body {
 .porto-footer {
   width: 100%;
   height: 528px;
-  background: #FFFAF2;
+  background: #fffaf2;
 }
 
 .footer-title {
@@ -517,7 +547,7 @@ body {
     height: 24px;
     border: none;
     outline: none;
-    background: #FFFAF2;
+    background: #fffaf2;
     cursor: pointer;
   }
 }
